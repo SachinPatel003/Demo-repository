@@ -1,0 +1,12 @@
+1)touch .gitignore
+2)git config --global user.name sachin (give your name)
+2)git config --global user.email sachinpatel460@gmailcom (give your emial address)
+2)git init
+3)git add .
+4)git commit -m "initial commit"
+5)git ststus (this is just to see working tree clean)
+6)ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  (enter this command for create access key)
+7)$cat "enter path where key is create" (copy key and add this to github)
+8)git remonte add origin<ssh url.git>
+9)git push origin master 
+
